@@ -1,5 +1,6 @@
-**#Bewegungs- und Alarmsystem (Raspberry Pi)
-#Projektbeschreibung**
+**#Bewegungs- und Alarmsystem (Raspberry Pi)**
+
+**#Projektbeschreibung**
 
 - Ein defektes Überwachungssystem wurde durch eine kostengünstige, individuell anpassbare Lösung ersetzt
 - Das System erkennt Bewegungen und sendet automatisch eine E-Mail mit Zeitstempel und Bild
