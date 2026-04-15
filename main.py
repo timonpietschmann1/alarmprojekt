@@ -17,6 +17,8 @@ while True:
     frame1 = picam2.capture_array()
     time.sleep(config.TIMER)
     frame2 = picam2.capture_array()
+    time.sleep(1)
+    frame3 = picam2.capture_array()
 
     # Live Bild
     cv2.imshow("cam", frame2)
@@ -30,7 +32,7 @@ while True:
  
             # Bild speichern
             image_path = f"data/snapshots/alarm_{int(time.time())}.jpg"
-            cv2.imwrite(image_path, frame2)
+            cv2.imwrite(image_path, frame3)
 
             # Mail mit Bild
             mailer.send_mail(image_path)

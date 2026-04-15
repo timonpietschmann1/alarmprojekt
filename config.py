@@ -1,5 +1,5 @@
 #Absender Mail
-SENDER = "example1@gmail.com"
+SENDER = "example@gmail.com"
 
 #Empfänger Mail
 RECEIVER = "example2@gmail.com"
